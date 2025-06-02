@@ -63,6 +63,11 @@ pip install -r requirements.txt
 1. Pastikan semua dependensi telah terinstal dengan benar (lihat file `requirements.txt` untuk daftar lengkap library yang dibutuhkan).
 2. Jalankan seluruh isi file `notebook.ipynb` menggunakan Google Colab/Jupyter Notebook untuk melihat hasil analisis data, temuan, dan insight yang diperoleh.
 
+### Dashboard:
+- Dashboard interaktif dapat diakses menggunakan **Power BI**
+- File dashboard tersedia dalam format .pbix untuk interaksi penuh
+- Terdapat screenshot dashboard dengan nama danyeka_s-dashboard.png
+
 ## Business Dashboard
 
 Hasil dari analisis dan model prediktif divisualisasikan dalam dashboard interaktif yang mencakup:
@@ -99,11 +104,6 @@ Dashboard ini dirancang khusus untuk membantu tim HR dalam menganalisis dan mema
 #### Fitur Interaktif:
 - Filter berdasarkan Age Group, Education Field, Department, dan Business Travel
 - Visualisasi dinamis yang memungkinkan drill-down untuk analisis lebih mendalam
-
-###Dashboard:
-- Dashboard interaktif dapat diakses menggunakan **Power BI**
-- File dashboard tersedia dalam format .pbix untuk interaksi penuh
-- Terdapat screenshot dashboard dengan nama danyeka_s-dashboard.png
 
 ## Conclusion
 
