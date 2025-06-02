@@ -63,7 +63,7 @@ pip install -r requirements.txt
 1. Pastikan semua dependensi telah terinstal dengan benar (lihat file `requirements.txt` untuk daftar lengkap library yang dibutuhkan).
 2. Jalankan seluruh isi file `notebook.ipynb` menggunakan Google Colab/Jupyter Notebook untuk melihat hasil analisis data, temuan, dan insight yang diperoleh.
 
-### Dashboard:
+### Menjalankan Dashboard:
 - Dashboard interaktif dapat diakses menggunakan **Power BI**
 - File dashboard tersedia dalam format .pbix untuk interaksi penuh
 - Terdapat screenshot dashboard dengan nama danyeka_s-dashboard.png
