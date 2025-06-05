@@ -1,4 +1,4 @@
-# Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
+# Proyek Pertama: Menyelesaikan Permasalahan Human Resources
 
 ## Business Understanding
 
@@ -59,30 +59,28 @@ pipenv shell
 pip install -r requirements.txt
 ```
 
-**Menjalankan Analisis**:
-1. Pastikan semua dependensi telah terinstal dengan benar (lihat file `requirements.txt` untuk daftar lengkap library yang dibutuhkan).
-2. Jalankan seluruh isi file `notebook.ipynb` menggunakan Google Colab/Jupyter Notebook untuk melihat hasil analisis data, temuan, dan insight yang diperoleh.
+**Menjalankan Proyek:**
 
-### Menjalankan Dashboard:
-Proyek ini membutuhkan lingkungan sederhana untuk menjalankan analisis data dan dashboard. Berikut langkah-langkah untuk mempersiapkan environment:
-1. Menjalankan `notebook.ipynb`
-   - Pastikan dependensi, packages, library yang dibutuhkan sudah tersedia (lihat file `requirements.txt` untuk melihat dependensi yang dibutuhkan).
+1. **Menjalankan `notebook.ipynb`**
+   - Pastikan semua dependensi telah terinstal dengan benar (lihat file `requirements.txt` untuk daftar lengkap library yang dibutuhkan).
    - Jalankan seluruh isi file `notebook.ipynb` menggunakan Google Colab/Jupyter Notebook untuk melihat hasil analisis data, temuan, dan insight yang diperoleh.
-2. **Menjalankan Dashboard**:
-   Untuk melihat isi dashboard secara langsung, dapat menggunakan **metabase** dengan bantuan Docker (pastikan Docker sudah terinstall).
+
+2. **Menjalankan Dashboard**
+   Untuk melihat isi dashboard secara langsung, dapat menggunakan **Metabase** dengan bantuan Docker (pastikan Docker sudah terinstall).
    - Jalankan perintah berikut:
-      ```
-      docker pull metabase/metabase:v0.46.4
-      ```
+     ```bash
+     docker pull metabase/metabase:v0.46.4
+     ```
    - Jalankan container Metabase menggunakan perintah:
-      ```
-      docker run -p 3000:3000 --name metabase metabase/metabase
-      ```
+     ```bash
+     docker run -p 3000:3000 --name metabase metabase/metabase
+     ```
    - Login ke Metabase menggunakan username dan password berikut:
-      ```
-      username: root@mail.com
-      password: root123
-      ```
+     ```
+     username: root@mail.com
+     password: root123
+     ```
+      
 ## Business Dashboard
 
 Hasil dari analisis dan model prediktif divisualisasikan dalam dashboard interaktif yang mencakup:
@@ -120,6 +118,13 @@ Dashboard ini dirancang khusus untuk membantu tim HR dalam menganalisis dan mema
 - Filter berdasarkan Age Group, Education Field, Department, dan Business Travel
 - Visualisasi dinamis yang memungkinkan drill-down untuk analisis lebih mendalam
 
+### Tutorial Mengakses Dashboard
+**Menggunakan Metabase**
+- Buka aplikasi Metabase di browser Anda (Menggunakan Docker)
+- Username dan Password untuk masuk ke Metabase:
+    username:`root@mail.com`
+    password: `root123`
+
 ## Conclusion
 
 Berdasarkan analisis mendalam terhadap data karyawan Jaya Jaya Maju, ditemukan beberapa temuan kunci yang menjawab permasalahan yang dihadapi departemen HR:
@@ -156,36 +161,36 @@ Implementasi sistem prediksi ini diproyeksikan dapat:
 - **Meningkatkan produktivitas** melalui retensi talenta kunci
 - **Menghemat biaya pelatihan** senilai rata-rata $15,000 per karyawan yang dipertahankan
 
-## Rekomendasi Action Items
+### Rekomendasi Action Items
 
 Berdasarkan temuan analisis, berikut adalah rekomendasi strategis untuk departemen HR:
 
-### 1. Program Pengurangan Lembur Terstruktur
+#### 1. Program Pengurangan Lembur Terstruktur
 - Implementasi sistem kerja fleksibel dan remote work untuk mengurangi kebutuhan lembur
 - Rekrutmen tambahan untuk posisi Laboratory Technician dan Sales Executive
 - Monitoring ketat terhadap jam kerja karyawan dengan alert system
 
-### 2. Restrukturisasi Kompensasi dan Benefit
+#### 2. Restrukturisasi Kompensasi dan Benefit
 - Review dan penyesuaian struktur gaji, terutama untuk posisi dengan attrition tinggi
 - Implementasi performance-based bonus dan stock option yang lebih kompetitif
 - Program bantuan pendidikan dan kesehatan yang lebih komprehensif
 
-### 3. Program Retensi Karyawan Baru
+#### 3. Program Retensi Karyawan Baru
 - Strengthened onboarding program dengan durasi 6 bulan
 - Sistem mentoring dan buddy system untuk karyawan baru
 - Regular check-in dan feedback session pada tahun pertama
 
-### 4. Implementasi Sistem Deteksi Dini
+#### 4. Implementasi Sistem Deteksi Dini
 - Deploy model SVM sebagai sistem peringatan dini HR
 - Training tim HR untuk menggunakan dashboard prediktif
 - Monthly review meeting berdasarkan output model
 
-### 5. Pengembangan Budaya Kerja Positif
+#### 5. Pengembangan Budaya Kerja Positif
 - Program work-life balance dan employee wellness
 - Survey kepuasan karyawan berkala dengan action plan
 - Team building dan program employee engagement yang terstruktur
 
-### 6. Jalur Karir dan Pengembangan
+#### 6. Jalur Karir dan Pengembangan
 - Peta karir yang jelas untuk setiap posisi
 - Program pelatihan dan sertifikasi berkelanjutan
 - Internal mobility program untuk memberikan kesempatan pertumbuhan
